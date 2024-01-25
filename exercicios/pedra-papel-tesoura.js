@@ -26,6 +26,6 @@ export const pedraPapelTesoura = (pedraPapelTesoura) => {
         console.log("Você não passou um valor válido, por favor passe um número de 1 a 3. Sendo: 1 - pedra, 2 - papel, 3 - tesoura");
     }
      else {
-        console.log("erro")
+        return 0;
     }
 }
